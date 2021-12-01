@@ -2,9 +2,8 @@
 
 import time
 
-file = "input.txt"
 line_count = 1
-with open(file, 'r') as f:
+with open("input.txt", 'r') as f:
 	previous = next(f).strip()
 	for line in f:
 		line = line.strip()
