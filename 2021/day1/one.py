@@ -7,7 +7,7 @@ with open("input.txt", 'r') as f:
 	previous = next(f).strip()
 	for line in f:
 		line = line.strip()
-		if (line >= previous):
+		if (line = previous):
 			line_count += 1
 #			print(line_count," : INCREASE")
 			previous = line
